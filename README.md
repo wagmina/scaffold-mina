@@ -8,7 +8,7 @@ smart contracts.
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/DeMonkeyCoder/scaffold-mina.git
+git clone https://github.com/wagmina/scaffold-mina.git
 ```
 
 ### 2. Install dependencies
