@@ -61,17 +61,17 @@ importers:
   packages/ui:
     dependencies:
       '@mina-js/connect':
-        specifier: https://pkg.pr.new/palladians/mina-js/@mina-js/connect@d652e7a
-        version: https://pkg.pr.new/palladians/mina-js/@mina-js/connect@d652e7a(typescript@5.5.4)
+        specifier: https://pkg.pr.new/palladians/mina-js/@mina-js/connect@b5e48fd
+        version: https://pkg.pr.new/palladians/mina-js/@mina-js/connect@b5e48fd(o1js@1.6.0)(typescript@5.5.4)
       '@mina-js/klesia-utils':
-        specifier: https://pkg.pr.new/DeMonkeyCoder/mina-js/@mina-js/klesia-utils@7dcfc5a
-        version: https://pkg.pr.new/DeMonkeyCoder/mina-js/@mina-js/klesia-utils@7dcfc5a(typescript@5.5.4)
+        specifier: https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd
+        version: https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd(typescript@5.5.4)
       '@mina-js/providers':
-        specifier: https://pkg.pr.new/palladians/mina-js/@mina-js/providers@d652e7a
-        version: https://pkg.pr.new/palladians/mina-js/@mina-js/providers@d652e7a(typescript@5.5.4)
+        specifier: https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd
+        version: https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd(o1js@1.6.0)(typescript@5.5.4)
       '@mina-js/utils':
-        specifier: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@d652e7a
-        version: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@d652e7a(typescript@5.5.4)
+        specifier: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd
+        version: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd(typescript@5.5.4)
       '@noble/curves':
         specifier: 1.4.0
         version: 1.4.0
@@ -80,16 +80,16 @@ importers:
         version: 1.4.0
       '@reown/appkit':
         specifier: ^1.6.9
-        version: 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)
+        version: 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)
       '@reown/appkit-common':
         specifier: ^1.6.9
-        version: 1.6.9(typescript@5.5.4)(zod@3.23.8)
+        version: 1.6.9(typescript@5.5.4)(zod@3.24.2)
       '@reown/appkit-core':
         specifier: ^1.6.9
-        version: 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)
+        version: 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)
       '@reown/appkit-utils':
         specifier: ^1.6.9
-        version: 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.23.8)
+        version: 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.24.2)
       '@reown/appkit-wallet':
         specifier: ^1.6.9
         version: 1.6.9(typescript@5.5.4)
@@ -103,11 +103,11 @@ importers:
         specifier: ^5.59.20
         version: 5.59.20(react@18.2.0)
       '@wagmina/appkit':
-        specifier: https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/appkit@9e34a19
-        version: https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/appkit@9e34a19(@reown/appkit@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8))(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))(zod@3.23.8)
+        specifier: https://pkg.pr.new/wagmina/wagmina/@wagmina/appkit@ea88618
+        version: https://pkg.pr.new/wagmina/wagmina/@wagmina/appkit@ea88618(@reown/appkit@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2))(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))(zod@3.24.2)
       '@wagmina/core':
-        specifier: https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19
-        version: https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))
+        specifier: https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618
+        version: https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))
       '@walletconnect/universal-provider':
         specifier: ^2.18.0
         version: 2.18.0
@@ -148,11 +148,11 @@ importers:
         specifier: 1.13.2
         version: 1.13.2(@types/react@18.3.3)(react@18.2.0)
       vimina:
-        specifier: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2
-        version: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)
+        specifier: https://pkg.pr.new/wagmina/vimina@a8bc09e
+        version: https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)
       wagmina:
-        specifier: https://pkg.pr.new/DeMonkeyCoder/wagmina@9e34a19
-        version: https://pkg.pr.new/DeMonkeyCoder/wagmina@9e34a19(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))
+        specifier: https://pkg.pr.new/wagmina/wagmina@ea88618
+        version: https://pkg.pr.new/wagmina/wagmina@ea88618(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))
       webauthn-p256:
         specifier: 0.0.5
         version: 0.0.5
@@ -1044,9 +1044,21 @@ packages:
   '@lit/reactive-element@2.0.4':
     resolution: {integrity: sha512-GFn91inaUa2oHLak8awSIigYz0cU0Payr1rcFsrkf5OJ5eSPxElyZfKh0f2p9FsTiZWXQdWGJeXZICEfXXYSXQ==}
 
+  '@mina-js/accounts@https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e}
+    version: 0.1.0
+    peerDependencies:
+      typescript: ^5.0.0
+
   '@mina-js/accounts@https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@d652e7a':
     resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@d652e7a}
     version: 0.0.1
+    peerDependencies:
+      typescript: ^5.0.0
+
+  '@mina-js/connect@https://pkg.pr.new/palladians/mina-js/@mina-js/connect@b5e48fd':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/connect@b5e48fd}
+    version: 0.1.0
     peerDependencies:
       typescript: ^5.0.0
 
@@ -1056,20 +1068,38 @@ packages:
     peerDependencies:
       typescript: ^5.0.0
 
+  '@mina-js/klesia-sdk@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-sdk@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-sdk@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e}
+    version: 0.1.0
+    peerDependencies:
+      typescript: ^5.0.0
+
   '@mina-js/klesia-sdk@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-sdk@d652e7a':
     resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-sdk@d652e7a}
     version: 0.0.1
     peerDependencies:
       typescript: ^5.0.0
 
-  '@mina-js/klesia-utils@https://pkg.pr.new/DeMonkeyCoder/mina-js/@mina-js/klesia-utils@7dcfc5a':
-    resolution: {tarball: https://pkg.pr.new/DeMonkeyCoder/mina-js/@mina-js/klesia-utils@7dcfc5a}
+  '@mina-js/klesia-utils@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd}
     version: 0.1.0
     peerDependencies:
       typescript: ^5.0.0
 
-  '@mina-js/klesia-utils@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd':
-    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd}
+  '@mina-js/klesia-utils@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@e944086':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@e944086}
+    version: 0.1.1
+    peerDependencies:
+      typescript: ^5.0.0
+
+  '@mina-js/providers@https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd}
+    version: 0.1.0
+    peerDependencies:
+      typescript: ^5.0.0
+
+  '@mina-js/providers@https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e}
     version: 0.1.0
     peerDependencies:
       typescript: ^5.0.0
@@ -1080,9 +1110,27 @@ packages:
     peerDependencies:
       typescript: ^5.0.0
 
+  '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd}
+    version: 0.1.0
+    peerDependencies:
+      typescript: ^5.0.0
+
+  '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e}
+    version: 0.1.0
+    peerDependencies:
+      typescript: ^5.0.0
+
   '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@d652e7a':
     resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@d652e7a}
     version: 0.0.1
+    peerDependencies:
+      typescript: ^5.0.0
+
+  '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@e944086':
+    resolution: {tarball: https://pkg.pr.new/palladians/mina-js/@mina-js/utils@e944086}
+    version: 0.1.1
     peerDependencies:
       typescript: ^5.0.0
 
@@ -1511,8 +1559,8 @@ packages:
   '@urql/core@5.1.1':
     resolution: {integrity: sha512-aGh024z5v2oINGD/In6rAtVKTm4VmQ2TxKQBAtk2ZSME5dunZFcjltw4p5ENQg+5CBhZ3FHMzl0Oa+rwqiWqlg==}
 
-  '@wagmina/appkit@https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/appkit@9e34a19':
-    resolution: {tarball: https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/appkit@9e34a19}
+  '@wagmina/appkit@https://pkg.pr.new/wagmina/wagmina/@wagmina/appkit@ea88618':
+    resolution: {tarball: https://pkg.pr.new/wagmina/wagmina/@wagmina/appkit@ea88618}
     version: 0.0.9
     peerDependencies:
       '@reown/appkit': '>=1.0.0'
@@ -1522,8 +1570,8 @@ packages:
       typescript:
         optional: true
 
-  '@wagmina/core@https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19':
-    resolution: {tarball: https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19}
+  '@wagmina/core@https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618':
+    resolution: {tarball: https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618}
     version: 0.0.7
     peerDependencies:
       '@tanstack/query-core': '>=5.0.0'
@@ -1535,8 +1583,8 @@ packages:
       typescript:
         optional: true
 
-  '@wagmina/core@https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19c863929685330ef4aef74c31e0dc697e4':
-    resolution: {tarball: https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19c863929685330ef4aef74c31e0dc697e4}
+  '@wagmina/core@https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618b7fbce617a2467d198f6a0d46b7058bee':
+    resolution: {tarball: https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618b7fbce617a2467d198f6a0d46b7058bee}
     version: 0.0.7
     peerDependencies:
       '@tanstack/query-core': '>=5.0.0'
@@ -3082,6 +3130,9 @@ packages:
   micro-ftch@0.4.0:
     resolution: {integrity: sha512-1SEH+syTsMQMQByZGJeMAiBxJIRu/3gG1z1+tHexgtXtXgwQy1C5JVBtXRdMZOIx9flerUBCJtmtVl7szwWgxQ==}
 
+  micro-ftch@0.4.2:
+    resolution: {integrity: sha512-7gXEYECF4DAoDUOViftg/rhUg/1R5n7tGHv/9Lc7xp9e32+FnLNcA6hMV+c2/gEnP+35CQVe09RWf6l4j7K6vA==}
+
   micromatch@4.0.7:
     resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
     engines: {node: '>=8.6'}
@@ -3098,6 +3149,12 @@ packages:
   mimic-fn@4.0.0:
     resolution: {integrity: sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==}
     engines: {node: '>=12'}
+
+  mina-credentials@0.2.6:
+    resolution: {integrity: sha512-S/pqtVI+1S2SILDJ2myqBtZLMzENn5vMv6Yx5H5Ec9EYGj5iuCtEI2DJhOuX2FnxhYa1hTjBjKpz9L2tk0XQpA==}
+    engines: {node: '>=22.0'}
+    peerDependencies:
+      o1js: https://pkg.pr.new/o1-labs/o1js@996ebb3
 
   mina-signer@3.0.7:
     resolution: {integrity: sha512-7eYp/6WWj2VzJjvfC8dNeGMud/brdBrzkUsCdysFFXnfV2/FVpVhAGCMfaS6hs0HJtS4+eplmiD2hXfshQS8CQ==}
@@ -3917,6 +3974,9 @@ packages:
   ts-pattern@5.3.1:
     resolution: {integrity: sha512-1RUMKa8jYQdNfmnK4jyzBK3/PS/tnjcZ1CW0v1vWDeYe5RBklc/nquw03MEoB66hVBm4BnlCfmOqDVxHyT1DpA==}
 
+  ts-pattern@5.6.2:
+    resolution: {integrity: sha512-d4IxJUXROL5NCa3amvMg6VQW2HVtZYmUTPfvVtO7zJWGYLJ+mry9v2OmYm+z67aniQoQ8/yFNadiEwtNS9qQiw==}
+
   tsconfig-paths@3.15.0:
     resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
 
@@ -4108,8 +4168,8 @@ packages:
       typescript:
         optional: true
 
-  vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2:
-    resolution: {tarball: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2}
+  vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e:
+    resolution: {tarball: https://pkg.pr.new/wagmina/vimina@a8bc09e}
     version: 0.0.4
     peerDependencies:
       typescript: '>=5.0.4'
@@ -4117,8 +4177,8 @@ packages:
       typescript:
         optional: true
 
-  wagmina@https://pkg.pr.new/DeMonkeyCoder/wagmina/wagmina@9e34a19c863929685330ef4aef74c31e0dc697e4:
-    resolution: {tarball: https://pkg.pr.new/DeMonkeyCoder/wagmina/wagmina@9e34a19c863929685330ef4aef74c31e0dc697e4}
+  wagmina@https://pkg.pr.new/wagmina/wagmina/wagmina@ea88618b7fbce617a2467d198f6a0d46b7058bee:
+    resolution: {tarball: https://pkg.pr.new/wagmina/wagmina/wagmina@ea88618b7fbce617a2467d198f6a0d46b7058bee}
     version: 0.0.7
     peerDependencies:
       '@tanstack/react-query': '>=5.0.0'
@@ -4129,8 +4189,8 @@ packages:
       typescript:
         optional: true
 
-  wagmina@https://pkg.pr.new/DeMonkeyCoder/wagmina@9e34a19:
-    resolution: {tarball: https://pkg.pr.new/DeMonkeyCoder/wagmina@9e34a19}
+  wagmina@https://pkg.pr.new/wagmina/wagmina@ea88618:
+    resolution: {tarball: https://pkg.pr.new/wagmina/wagmina@ea88618}
     version: 0.0.7
     peerDependencies:
       '@tanstack/react-query': '>=5.0.0'
@@ -4281,6 +4341,9 @@ packages:
 
   zod@3.23.8:
     resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+
+  zod@3.24.2:
+    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
 
   zustand@4.4.1:
     resolution: {integrity: sha512-QCPfstAS4EBiTQzlaGP1gmorkh/UL1Leaj2tdj+zZCZ/9bm0WS7sI2wnfD5lpOszFqWJ1DcPnGoY8RDL61uokw==}
@@ -5465,6 +5528,21 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.3.0
 
+  '@mina-js/accounts@https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(o1js@1.6.0)(typescript@5.5.4)':
+    dependencies:
+      '@mina-js/providers': https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(o1js@1.6.0)(typescript@5.5.4)
+      '@noble/ciphers': 1.2.1
+      '@noble/curves': 1.8.1
+      '@noble/hashes': 1.7.1
+      '@scure/base': 1.2.4
+      '@scure/bip32': 1.6.2
+      '@scure/bip39': 1.5.4
+      mina-signer: 3.0.7
+      typescript: 5.5.4
+      zod: 3.24.2
+    transitivePeerDependencies:
+      - o1js
+
   '@mina-js/accounts@https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@d652e7a(typescript@5.5.4)':
     dependencies:
       '@mina-js/providers': https://pkg.pr.new/palladians/mina-js/@mina-js/providers@d652e7a(typescript@5.5.4)
@@ -5478,6 +5556,18 @@ snapshots:
       typescript: 5.5.4
       zod: 3.23.8
 
+  '@mina-js/connect@https://pkg.pr.new/palladians/mina-js/@mina-js/connect@b5e48fd(o1js@1.6.0)(typescript@5.5.4)':
+    dependencies:
+      '@mina-js/accounts': https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(o1js@1.6.0)(typescript@5.5.4)
+      '@mina-js/klesia-sdk': https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-sdk@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(typescript@5.5.4)
+      '@mina-js/providers': https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(o1js@1.6.0)(typescript@5.5.4)
+      '@mina-js/utils': https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(typescript@5.5.4)
+      ts-pattern: 5.6.2
+      typescript: 5.5.4
+      zod: 3.24.2
+    transitivePeerDependencies:
+      - o1js
+
   '@mina-js/connect@https://pkg.pr.new/palladians/mina-js/@mina-js/connect@d652e7a(typescript@5.5.4)':
     dependencies:
       '@mina-js/accounts': https://pkg.pr.new/palladians/mina-js/@mina-js/accounts@d652e7a(typescript@5.5.4)
@@ -5488,21 +5578,17 @@ snapshots:
       typescript: 5.5.4
       zod: 3.23.8
 
+  '@mina-js/klesia-sdk@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-sdk@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(typescript@5.5.4)':
+    dependencies:
+      micro-ftch: 0.4.2
+      ts-pattern: 5.6.2
+      typescript: 5.5.4
+
   '@mina-js/klesia-sdk@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-sdk@d652e7a(typescript@5.5.4)':
     dependencies:
       micro-ftch: 0.4.0
       ts-pattern: 5.3.1
       typescript: 5.5.4
-
-  '@mina-js/klesia-utils@https://pkg.pr.new/DeMonkeyCoder/mina-js/@mina-js/klesia-utils@7dcfc5a(typescript@5.5.4)':
-    dependencies:
-      '@urql/core': 5.1.1
-      mina-signer: 3.0.7
-      serialize-error: 12.0.0
-      superjson: 2.2.2
-      typescript: 5.5.4
-    transitivePeerDependencies:
-      - graphql
 
   '@mina-js/klesia-utils@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd(typescript@5.5.4)':
     dependencies:
@@ -5514,14 +5600,59 @@ snapshots:
     transitivePeerDependencies:
       - graphql
 
+  '@mina-js/klesia-utils@https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@e944086(typescript@5.5.4)':
+    dependencies:
+      '@urql/core': 5.1.1
+      mina-signer: 3.0.7
+      serialize-error: 12.0.0
+      superjson: 2.2.2
+      typescript: 5.5.4
+    transitivePeerDependencies:
+      - graphql
+
+  '@mina-js/providers@https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd(o1js@1.6.0)(typescript@5.5.4)':
+    dependencies:
+      mina-credentials: 0.2.6(o1js@1.6.0)
+      typescript: 5.5.4
+    transitivePeerDependencies:
+      - o1js
+
+  '@mina-js/providers@https://pkg.pr.new/palladians/mina-js/@mina-js/providers@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(o1js@1.6.0)(typescript@5.5.4)':
+    dependencies:
+      mina-credentials: 0.2.6(o1js@1.6.0)
+      typescript: 5.5.4
+    transitivePeerDependencies:
+      - o1js
+
   '@mina-js/providers@https://pkg.pr.new/palladians/mina-js/@mina-js/providers@d652e7a(typescript@5.5.4)':
     dependencies:
+      typescript: 5.5.4
+
+  '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd(typescript@5.5.4)':
+    dependencies:
+      mina-signer: 3.0.7
+      serialize-error: 12.0.0
+      superjson: 2.2.2
+      typescript: 5.5.4
+
+  '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@b5e48fd7d8eba73a6133a6566cb3c25e6219f89e(typescript@5.5.4)':
+    dependencies:
+      mina-signer: 3.0.7
+      serialize-error: 12.0.0
+      superjson: 2.2.2
       typescript: 5.5.4
 
   '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@d652e7a(typescript@5.5.4)':
     dependencies:
       mina-signer: 3.0.7
       superjson: 2.2.1
+      typescript: 5.5.4
+
+  '@mina-js/utils@https://pkg.pr.new/palladians/mina-js/@mina-js/utils@e944086(typescript@5.5.4)':
+    dependencies:
+      mina-signer: 3.0.7
+      serialize-error: 12.0.0
+      superjson: 2.2.2
       typescript: 5.5.4
 
   '@next/env@14.2.3': {}
@@ -5682,24 +5813,24 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@reown/appkit-common@1.6.9(typescript@5.5.4)(zod@3.23.8)':
+  '@reown/appkit-common@1.6.9(typescript@5.5.4)(zod@3.24.2)':
     dependencies:
       big.js: 6.2.2
       dayjs: 1.11.10
-      viem: 2.23.5(typescript@5.5.4)(zod@3.23.8)
+      viem: 2.23.5(typescript@5.5.4)(zod@3.24.2)
     transitivePeerDependencies:
       - bufferutil
       - typescript
       - utf-8-validate
       - zod
 
-  '@reown/appkit-core@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)':
+  '@reown/appkit-core@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)':
     dependencies:
-      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.23.8)
+      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.24.2)
       '@reown/appkit-wallet': 1.6.9(typescript@5.5.4)
       '@walletconnect/universal-provider': 2.18.0
       valtio: 1.13.2(@types/react@18.3.3)(react@18.2.0)
-      viem: 2.23.5(typescript@5.5.4)(zod@3.23.8)
+      viem: 2.23.5(typescript@5.5.4)(zod@3.24.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5726,12 +5857,12 @@ snapshots:
     dependencies:
       buffer: 6.0.3
 
-  '@reown/appkit-scaffold-ui@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.23.8)':
+  '@reown/appkit-scaffold-ui@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.24.2)':
     dependencies:
-      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.23.8)
-      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)
+      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.24.2)
+      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)
       '@reown/appkit-ui': 1.6.9
-      '@reown/appkit-utils': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.23.8)
+      '@reown/appkit-utils': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.24.2)
       '@reown/appkit-wallet': 1.6.9(typescript@5.5.4)
       lit: 3.1.0
     transitivePeerDependencies:
@@ -5762,16 +5893,16 @@ snapshots:
       lit: 3.1.0
       qrcode: 1.5.3
 
-  '@reown/appkit-utils@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.23.8)':
+  '@reown/appkit-utils@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.24.2)':
     dependencies:
-      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.23.8)
-      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)
+      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.24.2)
+      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)
       '@reown/appkit-polyfills': 1.6.9
       '@reown/appkit-wallet': 1.6.9(typescript@5.5.4)
       '@walletconnect/logger': 2.1.2
       '@walletconnect/universal-provider': 2.18.0
       valtio: 1.13.2(@types/react@18.3.3)(react@18.2.0)
-      viem: 2.23.5(typescript@5.5.4)(zod@3.23.8)
+      viem: 2.23.5(typescript@5.5.4)(zod@3.24.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5805,21 +5936,21 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@reown/appkit@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)':
+  '@reown/appkit@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)':
     dependencies:
-      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.23.8)
-      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)
+      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.24.2)
+      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)
       '@reown/appkit-polyfills': 1.6.9
-      '@reown/appkit-scaffold-ui': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.23.8)
+      '@reown/appkit-scaffold-ui': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.24.2)
       '@reown/appkit-ui': 1.6.9
-      '@reown/appkit-utils': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.23.8)
+      '@reown/appkit-utils': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.24.2)
       '@reown/appkit-wallet': 1.6.9(typescript@5.5.4)
       '@walletconnect/types': 2.18.0
       '@walletconnect/universal-provider': 2.18.0
       '@walletconnect/utils': 2.18.0
       bs58: 6.0.0
       valtio: 1.13.2(@types/react@18.3.3)(react@18.2.0)
-      viem: 2.23.5(typescript@5.5.4)(zod@3.23.8)
+      viem: 2.23.5(typescript@5.5.4)(zod@3.24.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -6081,18 +6212,18 @@ snapshots:
     transitivePeerDependencies:
       - graphql
 
-  '@wagmina/appkit@https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/appkit@9e34a19(@reown/appkit@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8))(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))(zod@3.23.8)':
+  '@wagmina/appkit@https://pkg.pr.new/wagmina/wagmina/@wagmina/appkit@ea88618(@reown/appkit@1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2))(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))(zod@3.24.2)':
     dependencies:
       '@mina-js/utils': https://pkg.pr.new/palladians/mina-js/@mina-js/utils@d652e7a(typescript@5.5.4)
-      '@reown/appkit': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)
-      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.23.8)
-      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.23.8)
-      '@reown/appkit-utils': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.23.8)
+      '@reown/appkit': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)
+      '@reown/appkit-common': 1.6.9(typescript@5.5.4)(zod@3.24.2)
+      '@reown/appkit-core': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(zod@3.24.2)
+      '@reown/appkit-utils': 1.6.9(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(valtio@1.13.2(@types/react@18.3.3)(react@18.2.0))(zod@3.24.2)
       '@reown/appkit-wallet': 1.6.9(typescript@5.5.4)
-      '@wagmina/core': https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19c863929685330ef4aef74c31e0dc697e4(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))
+      '@wagmina/core': https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618b7fbce617a2467d198f6a0d46b7058bee(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))
       valtio: 1.13.2(@types/react@18.3.3)(react@18.2.0)
-      vimina: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)
-      wagmina: https://pkg.pr.new/DeMonkeyCoder/wagmina/wagmina@9e34a19c863929685330ef4aef74c31e0dc697e4(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))
+      vimina: https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)
+      wagmina: https://pkg.pr.new/wagmina/wagmina/wagmina@ea88618b7fbce617a2467d198f6a0d46b7058bee(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
@@ -6119,11 +6250,11 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@wagmina/core@https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))':
+  '@wagmina/core@https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))':
     dependencies:
       '@mina-js/connect': https://pkg.pr.new/palladians/mina-js/@mina-js/connect@d652e7a(typescript@5.5.4)
       eventemitter3: 5.0.1
-      vimina: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)
+      vimina: https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)
       zustand: 4.4.1(@types/react@18.3.3)(react@18.2.0)
     optionalDependencies:
       '@tanstack/query-core': 5.49.1
@@ -6133,11 +6264,11 @@ snapshots:
       - immer
       - react
 
-  '@wagmina/core@https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19c863929685330ef4aef74c31e0dc697e4(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))':
+  '@wagmina/core@https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618b7fbce617a2467d198f6a0d46b7058bee(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))':
     dependencies:
       '@mina-js/connect': https://pkg.pr.new/palladians/mina-js/@mina-js/connect@d652e7a(typescript@5.5.4)
       eventemitter3: 5.0.1
-      vimina: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)
+      vimina: https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)
       zustand: 4.4.1(@types/react@18.3.3)(react@18.2.0)
     optionalDependencies:
       '@tanstack/query-core': 5.49.1
@@ -6409,10 +6540,10 @@ snapshots:
       typescript: 5.5.4
       zod: 3.22.4
 
-  abitype@1.0.8(typescript@5.5.4)(zod@3.23.8):
+  abitype@1.0.8(typescript@5.5.4)(zod@3.24.2):
     optionalDependencies:
       typescript: 5.5.4
-      zod: 3.23.8
+      zod: 3.24.2
 
   acorn-jsx@5.3.2(acorn@8.12.1):
     dependencies:
@@ -8253,6 +8384,8 @@ snapshots:
 
   micro-ftch@0.4.0: {}
 
+  micro-ftch@0.4.2: {}
+
   micromatch@4.0.7:
     dependencies:
       braces: 3.0.3
@@ -8263,6 +8396,10 @@ snapshots:
   mimic-fn@2.1.0: {}
 
   mimic-fn@4.0.0: {}
+
+  mina-credentials@0.2.6(o1js@1.6.0):
+    dependencies:
+      o1js: 1.6.0
 
   mina-signer@3.0.7:
     dependencies:
@@ -8467,14 +8604,14 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
-  ox@0.6.7(typescript@5.5.4)(zod@3.23.8):
+  ox@0.6.7(typescript@5.5.4)(zod@3.24.2):
     dependencies:
       '@adraffy/ens-normalize': 1.11.0
       '@noble/curves': 1.8.1
       '@noble/hashes': 1.7.1
       '@scure/bip32': 1.6.2
       '@scure/bip39': 1.5.4
-      abitype: 1.0.8(typescript@5.5.4)(zod@3.23.8)
+      abitype: 1.0.8(typescript@5.5.4)(zod@3.24.2)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.5.4
@@ -9125,6 +9262,8 @@ snapshots:
 
   ts-pattern@5.3.1: {}
 
+  ts-pattern@5.6.2: {}
+
   tsconfig-paths@3.15.0:
     dependencies:
       '@types/json5': 0.0.29
@@ -9300,15 +9439,15 @@ snapshots:
       - utf-8-validate
       - zod
 
-  viem@2.23.5(typescript@5.5.4)(zod@3.23.8):
+  viem@2.23.5(typescript@5.5.4)(zod@3.24.2):
     dependencies:
       '@noble/curves': 1.8.1
       '@noble/hashes': 1.7.1
       '@scure/bip32': 1.6.2
       '@scure/bip39': 1.5.4
-      abitype: 1.0.8(typescript@5.5.4)(zod@3.23.8)
+      abitype: 1.0.8(typescript@5.5.4)(zod@3.24.2)
       isows: 1.0.6(ws@8.18.0)
-      ox: 0.6.7(typescript@5.5.4)(zod@3.23.8)
+      ox: 0.6.7(typescript@5.5.4)(zod@3.24.2)
       ws: 8.18.0
     optionalDependencies:
       typescript: 5.5.4
@@ -9317,10 +9456,10 @@ snapshots:
       - utf-8-validate
       - zod
 
-  vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4):
+  vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4):
     dependencies:
-      '@mina-js/klesia-utils': https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@b5e48fd(typescript@5.5.4)
-      '@mina-js/utils': https://pkg.pr.new/palladians/mina-js/@mina-js/utils@d652e7a(typescript@5.5.4)
+      '@mina-js/klesia-utils': https://pkg.pr.new/palladians/mina-js/@mina-js/klesia-utils@e944086(typescript@5.5.4)
+      '@mina-js/utils': https://pkg.pr.new/palladians/mina-js/@mina-js/utils@e944086(typescript@5.5.4)
       '@noble/hashes': 1.6.1
       '@scure/bip32': 1.6.0
       '@scure/bip39': 1.5.0
@@ -9336,13 +9475,13 @@ snapshots:
       - graphql
       - utf-8-validate
 
-  wagmina@https://pkg.pr.new/DeMonkeyCoder/wagmina/wagmina@9e34a19c863929685330ef4aef74c31e0dc697e4(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)):
+  wagmina@https://pkg.pr.new/wagmina/wagmina/wagmina@ea88618b7fbce617a2467d198f6a0d46b7058bee(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)):
     dependencies:
       '@tanstack/react-query': 5.59.20(react@18.2.0)
-      '@wagmina/core': https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19c863929685330ef4aef74c31e0dc697e4(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))
+      '@wagmina/core': https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618b7fbce617a2467d198f6a0d46b7058bee(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
-      vimina: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)
+      vimina: https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
@@ -9350,13 +9489,13 @@ snapshots:
       - '@types/react'
       - immer
 
-  wagmina@https://pkg.pr.new/DeMonkeyCoder/wagmina@9e34a19(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)):
+  wagmina@https://pkg.pr.new/wagmina/wagmina@ea88618(@tanstack/query-core@5.49.1)(@tanstack/react-query@5.59.20(react@18.2.0))(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)):
     dependencies:
       '@tanstack/react-query': 5.59.20(react@18.2.0)
-      '@wagmina/core': https://pkg.pr.new/DeMonkeyCoder/wagmina/@wagmina/core@9e34a19c863929685330ef4aef74c31e0dc697e4(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4))
+      '@wagmina/core': https://pkg.pr.new/wagmina/wagmina/@wagmina/core@ea88618b7fbce617a2467d198f6a0d46b7058bee(@tanstack/query-core@5.49.1)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(vimina@https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4))
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
-      vimina: https://pkg.pr.new/DeMonkeyCoder/vimina@5b709d2(typescript@5.5.4)
+      vimina: https://pkg.pr.new/wagmina/vimina@a8bc09e(typescript@5.5.4)
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
@@ -9505,6 +9644,8 @@ snapshots:
   zod@3.22.4: {}
 
   zod@3.23.8: {}
+
+  zod@3.24.2: {}
 
   zustand@4.4.1(@types/react@18.3.3)(react@18.2.0):
     dependencies:

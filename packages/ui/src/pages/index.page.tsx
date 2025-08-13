@@ -103,6 +103,7 @@ function HomeBody() {
       signTransaction({
         zkappCommand: JSON.parse(zkappCommandStr) as ZkappCommand,
         feePayer: {
+          nonce: '500',
           fee: 500000000n,
           memo: '',
         },
