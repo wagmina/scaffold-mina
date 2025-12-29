@@ -9,6 +9,7 @@ import {
 } from 'react'
 import { useAccount } from 'wagmina'
 import ZkappWorkerClient from './zkappWorkerClient'
+import type { ChainNamespace } from '@reown/appkit-common'
 
 type MinaAccountData = {
   accountExists: boolean | null
@@ -50,7 +51,7 @@ export const ZkappProvider = ({ children }: { children: ReactNode }) => {
 
   const { caipNetwork } = useAppKitNetwork()
   useEffect(() => {
-    if (!caipNetwork) return
+    if (caipNetwork?.chainNamespace !== ('mina' as ChainNamespace)) return
     const graphqlEndpoint = caipNetwork.rpcUrls.default.http[0]
     Mina.setActiveInstance(Mina.Network(graphqlEndpoint))
     zkappWorkerClient?.setActiveInstance({
